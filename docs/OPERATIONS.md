@@ -1,6 +1,6 @@
 # Operations
 
-Public source: `RoyWG925/builder-context` main. Cloud evidence scan: daily 01:17 UTC / 09:17 Taipei and workflow_dispatch. Local subscription analysis: weekly, independently configured on Windows. Profile sync: hourly minute 35. Astro deployment: hourly minute 45, pushes and manual runs. No model secret is used.
+Public source: `theroyatlas/builder-context` main. Cloud evidence scan: daily 01:17 UTC / 09:17 Taipei and workflow_dispatch. Local subscription analysis: weekly, independently configured on Windows. Profile sync: hourly minute 35. Astro deployment: hourly minute 45, pushes and manual runs. No model secret is used.
 
 The primary confirmation channel is the owner's interactive chat. Follow CHAT_CONFIRMATION.md: record exact approved fields and original wording, validate base hashes, publish canonical data plus exports and verify the content revision. No PR or repeat approval is required. Legacy human-merged candidate PRs remain optional.
 
@@ -10,16 +10,16 @@ Consumers resolve canonical main to one commit, download exports at that SHA and
 
 Manual cloud runs are available at:
 
-- https://github.com/RoyWG925/builder-context/actions/workflows/discover.yml
-- https://github.com/RoyWG925/RoyWG925/actions/workflows/sync-identity.yml
-- https://github.com/RoyWG925/portfolio-astro/actions/workflows/deploy.yml
+- https://github.com/theroyatlas/builder-context/actions/workflows/discover.yml
+- https://github.com/theroyatlas/theroyatlas/actions/workflows/sync-identity.yml
+- https://github.com/theroyatlas/portfolio-astro/actions/workflows/deploy.yml
 
 | Symptom | Recovery |
 | --- | --- |
 | Pending candidate | Show the exact proposed changes in chat; apply only the confirmed scope |
 | Stale candidate | Reanalyse against current canonical record; do not remove base-hash guard |
 | Queue write conflict | Retry against fresh main; never force-update or overwrite a changed base |
-| GitHub CLI auth error | Run `gh auth login -h github.com` locally as RoyWG925 |
+| GitHub CLI auth error | Run `gh auth login -h github.com` locally as theroyatlas |
 | Codex cannot start | Use normal local user environment; inspect CLI version/config and subscription login |
 | Generated drift | Run `npm run generate`; commit source and exports together |
 | Deployment shows old revision | Check source validation, consumer run conclusion and live `identity-build.json`; rerun sync/deploy |

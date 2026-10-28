@@ -10,14 +10,14 @@ foreach ($tool in @('node','git','gh')) { if (!(Get-Command $tool -ErrorAction S
 & gh auth status -h github.com
 if ($LASTEXITCODE -ne 0) { throw 'Run gh auth login -h github.com, then run this installer again.' }
 $identityLogin=(& gh api user --jq .login).Trim()
-if ($identityLogin -ne 'RoyWG925') { throw 'GitHub CLI must be authenticated as RoyWG925.' }
+if ($identityLogin -ne 'theroyatlas') { throw 'GitHub CLI must be authenticated as theroyatlas.' }
 $identityInstall=[IO.Path]::GetFullPath($InstallDirectory)
 New-Item -ItemType Directory -Path $identityInstall -Force | Out-Null
 $identityCheckout=Join-Path $identityInstall 'builder-context'
-if (!(Test-Path -LiteralPath $identityCheckout)) { & git clone https://github.com/RoyWG925/builder-context.git $identityCheckout; if ($LASTEXITCODE -ne 0) { throw 'Clone failed' } }
+if (!(Test-Path -LiteralPath $identityCheckout)) { & git clone https://github.com/theroyatlas/builder-context.git $identityCheckout; if ($LASTEXITCODE -ne 0) { throw 'Clone failed' } }
 $identityCheckout=Resolve-IdentityNativePath $identityCheckout
 $identityRemote=(& git -C $identityCheckout remote get-url origin).Trim()
-if ($identityRemote -notmatch 'github\.com[:/]RoyWG925/builder-context(?:\.git)?$') { throw 'Unexpected checkout remote; refusing to use it.' }
+if ($identityRemote -notmatch 'github\.com[:/]theroyatlas/builder-context(?:\.git)?$') { throw 'Unexpected checkout remote; refusing to use it.' }
 if (@(& git -C $identityCheckout status --porcelain).Count -gt 0) { throw 'Checkout has local changes; preserving them. Resolve them before reinstalling.' }
 if ((& git -C $identityCheckout branch --show-current).Trim() -ne 'main') { throw 'Maintenance checkout must be on main; preserving the current branch.' }
 & git -C $identityCheckout pull --ff-only

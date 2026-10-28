@@ -15,7 +15,7 @@
     ],
     "status": "archived-repository",
     "period": "Date requires owner confirmation",
-    "repository": "https://github.com/RoyWG925/ball-crawl",
+    "repository": "https://github.com/theroyatlas/ball-crawl",
     "demo": null,
     "results": [
       "Inspected code implements roll, movement decision, movement, shooting and resolution states, with combined/split dice movement and drag-to-launch balls."
@@ -41,7 +41,7 @@
     {
       "id": "scan-ball-crawl-bf8b11d8cab5",
       "visibility": "public",
-      "url": "https://github.com/RoyWG925/ball-crawl/tree/bf8b11d8cab550b0162eb3782b4ad622f7354df9",
+      "url": "https://github.com/theroyatlas/ball-crawl/tree/bf8b11d8cab550b0162eb3782b4ad622f7354df9",
       "kind": "repository-snapshot",
       "checkedAt": "2026-10-19",
       "commit": "bf8b11d8cab550b0162eb3782b4ad622f7354df9"
@@ -73,7 +73,7 @@
     "checks": [],
     "notes": "Source inspected by Codex Work; project code/tests were not executed in this review. Personal/team attribution remains pending. Migrated from a legacy PR into the pending queue after Roy selected chat confirmation. Published owner statements are separate from remaining unconfirmed implementation claims.",
     "ownerAttestation": {
-      "by": "RoyWG925",
+      "by": "theroyatlas",
       "date": "2026-10-19",
       "source": "Explicit owner clarification in Identity OS conversation",
       "statement": "ballcrawl t-minus都是我自己做的",

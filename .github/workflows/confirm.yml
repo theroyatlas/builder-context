@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   confirm:
-    if: github.event.pull_request.merged == true && github.event.pull_request.merged_by.login == 'RoyWG925' && github.event.sender.login == 'RoyWG925'
+    if: github.event.pull_request.merged == true && github.event.pull_request.merged_by.login == 'theroyatlas' && github.event.sender.login == 'theroyatlas'
     runs-on: ubuntu-24.04
     steps:
       # Only reviewed, owner-merged default-branch code is ever executed with write permission.

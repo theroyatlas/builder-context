@@ -1,8 +1,8 @@
-<!-- Generated from RoyWG925/builder-context. Edit canonical JSON, not this file. Revision: e8121c1a10d35f8c937b3f63d37373e437887bd1db771494811e025f3eab1773 -->
+<!-- Generated from theroyatlas/builder-context. Edit canonical JSON, not this file. Revision: 6a12df570594885c7fdbcff5830be4854a4482b5a2a2377d6e47a7c5ab5aa705 -->
 # Roy Identity OS - shared agent context
 
-Source: https://github.com/RoyWG925/builder-context
-Revision: e8121c1a10d35f8c937b3f63d37373e437887bd1db771494811e025f3eab1773
+Source: https://github.com/theroyatlas/builder-context
+Revision: 6a12df570594885c7fdbcff5830be4854a4482b5a2a2377d6e47a7c5ab5aa705
 
 ## Read this first
 - Public canonical facts live in profile/, projects/, competitions/, and evidence/.
@@ -35,7 +35,7 @@ Technology: TypeScript, Next.js, Gemma, AMD Token Factory
 Results: Published a playable experience with validated model actions and an inspectable chain of causes.
 Limitations: Live runs depend on model latency. Entertainment claims have not been validated with human playtesters. Roy confirms completion and submission to AMD Developer Hackathon ACT III; results are pending. Division of work is explicitly owner-attested; competition results remain unknown.
 Lessons: Separate model-generated decisions from deterministic state changes and make failures observable.
-Evidence: [viral-readme](https://github.com/RoyWG925/viral-town/blob/cbab86c5b978cfa522cf2c3307a8bad236e2db49/README.md) · [chat-roy-20261019-chat-attribution](https://github.com/RoyWG925/builder-context/blob/main/receipts/chat-roy-20261019-chat-attribution.json)
+Evidence: [viral-readme](https://github.com/theroyatlas/viral-town/blob/cbab86c5b978cfa522cf2c3307a8bad236e2db49/README.md) · [chat-roy-20261019-chat-attribution](https://github.com/theroyatlas/builder-context/blob/main/receipts/chat-roy-20261019-chat-attribution.json)
 
 ### Market Sentiment x TAIEX
 Status: research-completed; period: 2025; last verified: 2026-10-19; review: published-baseline.
@@ -45,7 +45,7 @@ Technology: Python, PyTorch, Hugging Face Transformers, BERT, SQLite
 Results: Implemented a text ingestion, labeling, model training, and event-study workflow.
 Limitations: The reported 0.683 macro-F1 used a test set overlapping training and tuning. The repository reports 0.580 on a 45-item consensus-labeled holdout. This is a single-event, same-day association study; it does not establish market prediction.
 Lessons: Separate exploratory scores from held-out evaluation and publish corrections when recomputation changes the conclusion.
-Evidence: [ptt-readme](https://github.com/RoyWG925/ptt-sentiment-stock-analysis/blob/731cfbb089427efbf47026e3235be029d3c46fb6/README.md) · [ptt-errata](https://github.com/RoyWG925/ptt-sentiment-stock-analysis/blob/731cfbb089427efbf47026e3235be029d3c46fb6/ERRATA.md) · [portfolio-existing](https://github.com/RoyWG925/portfolio-astro/blob/14b6f7be999b2dbab116198c97da9e4e13b3313c/src/pages/index.astro)
+Evidence: [ptt-readme](https://github.com/theroyatlas/ptt-sentiment-stock-analysis/blob/731cfbb089427efbf47026e3235be029d3c46fb6/README.md) · [ptt-errata](https://github.com/theroyatlas/ptt-sentiment-stock-analysis/blob/731cfbb089427efbf47026e3235be029d3c46fb6/ERRATA.md) · [portfolio-existing](https://github.com/theroyatlas/portfolio-astro/blob/14b6f7be999b2dbab116198c97da9e4e13b3313c/src/pages/index.astro)
 
 ### Is my major worth it?
 Status: prototype; period: 2025; last verified: 2026-10-19; review: published-baseline.
@@ -55,7 +55,7 @@ Technology: Python, Streamlit, Plotly, pandas
 Results: Joined admission and field-level salary data and built an interactive exploration interface.
 Limitations: Salary data are at field level, not individual program outcomes. No public server demo is documented.
 Lessons: Make data grain and proxy assumptions visible alongside comparisons.
-Evidence: [university-readme](https://github.com/RoyWG925/taiwan-uni-cp-value/blob/5881b1df4347ecf449ae94f946afc4733a2d3afb/README.md)
+Evidence: [university-readme](https://github.com/theroyatlas/taiwan-uni-cp-value/blob/5881b1df4347ecf449ae94f946afc4733a2d3afb/README.md)
 
 ### NUCLEUS.IO
 Status: deployed; period: 2026; last verified: 2026-10-19; review: published-baseline.
@@ -65,11 +65,11 @@ Technology: Three.js, WebGL, GLSL, Vite, Web Audio API
 Results: Published an interactive WebGL portfolio with flight, project exploration, and synthesized audio.
 Limitations: Requires a browser with WebGL2.
 Lessons: Use interaction and motion to make a portfolio explorable.
-Evidence: [nucleus-readme](https://github.com/RoyWG925/nucleus-io/blob/072dae5886fef81107f1dc1e6b31f63b527140bc/README.md)
+Evidence: [nucleus-readme](https://github.com/theroyatlas/nucleus-io/blob/072dae5886fef81107f1dc1e6b31f63b527140bc/README.md)
 
 ## Competitions
 - AMD Developer Hackathon ACT III, Track 4 - Create a New Kind of Experience, 2026-10. Status: submitted. Submitted: true. Result: unknown. VIRAL is completed and submitted, according to Roy's explicit statement on 2026-10-19. Results are pending; no award is claimed. The official submission receipt has not been independently verified.
-  Evidence: [viral-readme](https://github.com/RoyWG925/viral-town/blob/cbab86c5b978cfa522cf2c3307a8bad236e2db49/README.md) · [roy-viral-submitted](https://github.com/RoyWG925/builder-context/blob/01747c61348e3bcced4530737be0b3cf8c57ee08/evidence/owner-statements.json)
+  Evidence: [viral-readme](https://github.com/theroyatlas/viral-town/blob/cbab86c5b978cfa522cf2c3307a8bad236e2db49/README.md) · [roy-viral-submitted](https://github.com/theroyatlas/builder-context/blob/01747c61348e3bcced4530737be0b3cf8c57ee08/evidence/owner-statements.json)
 
 ## Explicit owner statements
 - Development direction: AI-native Consumer Products, AI Agent Engineering, Creative Technology, Interactive Experiences. Building products with usage, return visits and willingness to pay is an aspiration, not a reported outcome. (Roy, 2026-10-19; Explicit owner instruction during Identity OS phase 2)
@@ -86,7 +86,7 @@ Toolchain: Git / GitHub, Cursor, Claude Code, GitHub Copilot, Godot, Figma, Dock
 ## Education
 National Taiwan Normal University (NTNU); B.S. in Learning Sciences; 2021 - 2026
 
-<!-- Generated from RoyWG925/builder-context. Edit canonical JSON, not this file. Revision: e8121c1a10d35f8c937b3f63d37373e437887bd1db771494811e025f3eab1773 -->
+<!-- Generated from theroyatlas/builder-context. Edit canonical JSON, not this file. Revision: 6a12df570594885c7fdbcff5830be4854a4482b5a2a2377d6e47a7c5ab5aa705 -->
 # Introductions by audience
 
 ## AI Engineer / Full-stack Engineer

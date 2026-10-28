@@ -2,7 +2,7 @@
 
 One evidence-backed source for Roy Wang's profile, existing Astro portfolio, resume, hackathon record and shared agent context.
 
-[AI context](AI_CONTEXT.md) | [Portfolio](https://roywg925.github.io/portfolio-astro/) | [Resume](https://roywg925.github.io/portfolio-astro/Roy_Wang_Resume.pdf) | [Introductions](generated/introductions.md) | [LinkedIn drafts](generated/linkedin.md)
+[AI context](AI_CONTEXT.md) | [Portfolio](https://theroyatlas.github.io/portfolio-astro/) | [Resume](https://theroyatlas.github.io/portfolio-astro/Roy_Wang_Resume.pdf) | [Introductions](generated/introductions.md) | [LinkedIn drafts](generated/linkedin.md)
 
 ## Confirmation without a PR
 

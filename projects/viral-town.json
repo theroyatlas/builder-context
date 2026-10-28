@@ -12,7 +12,7 @@
   ],
   "status": "deployed",
   "period": "2026",
-  "repository": "https://github.com/RoyWG925/viral-town",
+  "repository": "https://github.com/theroyatlas/viral-town",
   "demo": "https://viral-town.vercel.app",
   "results": [
     "Published a playable experience with validated model actions and an inspectable chain of causes."
@@ -33,7 +33,7 @@
   "order": 1,
   "review": {
     "state": "owner-attested",
-    "by": "RoyWG925",
+    "by": "theroyatlas",
     "date": "2026-10-19",
     "evidence": [
       "chat-roy-20261019-chat-attribution"

@@ -7,7 +7,7 @@
   "technologies": ["Python", "PyTorch", "Hugging Face Transformers", "BERT", "SQLite"],
   "status": "research-completed",
   "period": "2025",
-  "repository": "https://github.com/RoyWG925/ptt-sentiment-stock-analysis",
+  "repository": "https://github.com/theroyatlas/ptt-sentiment-stock-analysis",
   "demo": null,
   "results": ["Implemented a text ingestion, labeling, model training, and event-study workflow."],
   "limitations": ["The reported 0.683 macro-F1 used a test set overlapping training and tuning. The repository reports 0.580 on a 45-item consensus-labeled holdout.", "This is a single-event, same-day association study; it does not establish market prediction."],

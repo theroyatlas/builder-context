@@ -15,7 +15,7 @@
     ],
     "status": "deployed",
     "period": "2026",
-    "repository": "https://github.com/RoyWG925/viral-town",
+    "repository": "https://github.com/theroyatlas/viral-town",
     "demo": "https://viral-town.vercel.app",
     "results": [
       "Published a playable experience with validated model actions and an inspectable chain of causes.",
@@ -45,7 +45,7 @@
     {
       "id": "scan-viral-town-79dd8b742894",
       "visibility": "public",
-      "url": "https://github.com/RoyWG925/viral-town/tree/79dd8b742894bdc6b296c1544c4ccc2bcc7e2768",
+      "url": "https://github.com/theroyatlas/viral-town/tree/79dd8b742894bdc6b296c1544c4ccc2bcc7e2768",
       "kind": "repository-snapshot",
       "checkedAt": "2026-10-19",
       "commit": "79dd8b742894bdc6b296c1544c4ccc2bcc7e2768"

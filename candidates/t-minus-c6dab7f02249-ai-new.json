@@ -16,7 +16,7 @@
     ],
     "status": "archived-repository",
     "period": "Date requires owner confirmation",
-    "repository": "https://github.com/RoyWG925/T-MINUS",
+    "repository": "https://github.com/theroyatlas/T-MINUS",
     "demo": null,
     "results": [
       "Source contains event countdown rendering and localStorage-backed interaction state; no active community or multi-user backend is established."
@@ -42,7 +42,7 @@
     {
       "id": "scan-t-minus-aa7d1026d237",
       "visibility": "public",
-      "url": "https://github.com/RoyWG925/T-MINUS/tree/aa7d1026d2370672ae4296c6f241afd59f60738b",
+      "url": "https://github.com/theroyatlas/T-MINUS/tree/aa7d1026d2370672ae4296c6f241afd59f60738b",
       "kind": "repository-snapshot",
       "checkedAt": "2026-10-19",
       "commit": "aa7d1026d2370672ae4296c6f241afd59f60738b"
@@ -74,7 +74,7 @@
     "checks": [],
     "notes": "Source inspected by Codex Work; project code/tests were not executed in this review. Personal/team attribution remains pending. Migrated from a legacy PR into the pending queue after Roy selected chat confirmation. Published owner statements are separate from remaining unconfirmed implementation claims.",
     "ownerAttestation": {
-      "by": "RoyWG925",
+      "by": "theroyatlas",
       "date": "2026-10-19",
       "source": "Explicit owner clarification in Identity OS conversation",
       "statement": "ballcrawl t-minus都是我自己做的",
