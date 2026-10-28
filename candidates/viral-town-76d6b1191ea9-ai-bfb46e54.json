@@ -18,7 +18,7 @@
     ],
     "status": "deployed",
     "period": "2026",
-    "repository": "https://github.com/RoyWG925/viral-town",
+    "repository": "https://github.com/theroyatlas/viral-town",
     "demo": "https://viral-town.vercel.app",
     "results": [
       "Repository README reports 157 tests in 16 suites for validators, engine invariants and scripted-model behavior. Command: node --test lab/test-*.ts. This count was not independently rerun in phase 2."
@@ -48,7 +48,7 @@
     {
       "id": "scan-viral-town-cbab86c5b978",
       "visibility": "public",
-      "url": "https://github.com/RoyWG925/viral-town/tree/cbab86c5b978cfa522cf2c3307a8bad236e2db49",
+      "url": "https://github.com/theroyatlas/viral-town/tree/cbab86c5b978cfa522cf2c3307a8bad236e2db49",
       "kind": "repository-snapshot",
       "checkedAt": "2026-10-19",
       "commit": "cbab86c5b978cfa522cf2c3307a8bad236e2db49"
@@ -80,7 +80,7 @@
     "checks": [],
     "notes": "Source inspected by Codex Work; project code/tests were not executed in this review. Roy clarified team collaboration and division of work on 2026-10-19. Migrated from a legacy PR into the pending queue after Roy selected chat confirmation. Published owner statements are separate from remaining unconfirmed implementation claims.",
     "ownerAttestation": {
-      "by": "RoyWG925",
+      "by": "theroyatlas",
       "date": "2026-10-19",
       "source": "Explicit owner clarification in Identity OS conversation",
       "statement": "VIRAL是我跟隊友一起做的\n我負責 AI Agent 測試與迭代\n對方負責 參賽內容 介面與視覺\n共同負責 企劃與玩法",
@@ -93,7 +93,7 @@
     },
     "attributionEvidence": [
       {
-        "url": "https://github.com/RoyWG925/viral-town/blob/cbab86c5b978cfa522cf2c3307a8bad236e2db49/CLAUDE.md",
+        "url": "https://github.com/theroyatlas/viral-town/blob/cbab86c5b978cfa522cf2c3307a8bad236e2db49/CLAUDE.md",
         "finding": "Public collaboration rules name Roy and jielle2453, each using Claude Code. The rules assign PR integration and production deployment to Roy. Other component responsibilities are recorded in a separate collaborative document not inspected here.",
         "scope": "Documented collaboration arrangement; not proof of exclusive authorship or completed component work."
       }

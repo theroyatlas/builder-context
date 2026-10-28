@@ -7,7 +7,7 @@
   "technologies": ["Python", "Streamlit", "Plotly", "pandas"],
   "status": "prototype",
   "period": "2025",
-  "repository": "https://github.com/RoyWG925/taiwan-uni-cp-value",
+  "repository": "https://github.com/theroyatlas/taiwan-uni-cp-value",
   "demo": null,
   "results": ["Joined admission and field-level salary data and built an interactive exploration interface."],
   "limitations": ["Salary data are at field level, not individual program outcomes. No public server demo is documented."],

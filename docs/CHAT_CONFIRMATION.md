@@ -6,7 +6,7 @@ Roy chose this workflow on 2026-10-19: show proposed public changes, accept his 
 
 The agent must have observed a real owner statement and its publication context. General agreement about the workflow is not approval of a whole pending candidate. Capture minimal public wording only; never copy a full conversation, private notes or credentials into a receipt.
 
-Prepare a schema-v1 approval JSON with id, visibility=public, by=RoyWG925, channel=chat, confirmedAt, ownerStatement, authorizationStatement, reason, changes and statements. Optional sources contain only explicitly approved public evidence. Each change names kind (project, competition or profile), id, baseRecordHash, and either an exact field patch or a fully reviewed create record. The base hash is scripts/lib.mjs hash(currentRecord); a new record uses null. The patch cannot change identity, repository, review or visibility. Changes to public contact information require the same explicit disclosure scope as any other field.
+Prepare a schema-v1 approval JSON with id, visibility=public, by=theroyatlas, channel=chat, confirmedAt, ownerStatement, authorizationStatement, reason, changes and statements. Optional sources contain only explicitly approved public evidence. Each change names kind (project, competition or profile), id, baseRecordHash, and either an exact field patch or a fully reviewed create record. The base hash is scripts/lib.mjs hash(currentRecord); a new record uses null. The patch cannot change identity, repository, review or visibility. Changes to public contact information require the same explicit disclosure scope as any other field.
 
 ~~~sh
 npm run confirm:chat -- --file local/approved-change.json

@@ -12,7 +12,7 @@ gh auth status -h github.com
 codex login
 ```
 
-Choose ChatGPT login, not an API key. Confirm `gh api user --jq .login` is `RoyWG925`. If your older Codex CLI rejects `model_reasoning_effort = "ultra"`, update Codex from the official npm package or change that setting yourself to a level your CLI supports. The isolated maintenance invocation uses `--ignore-user-config` and forces ChatGPT authentication; it does not edit global config or copy authentication tokens.
+Choose ChatGPT login, not an API key. Confirm `gh api user --jq .login` is `theroyatlas`. If your older Codex CLI rejects `model_reasoning_effort = "ultra"`, update Codex from the official npm package or change that setting yourself to a level your CLI supports. The isolated maintenance invocation uses `--ignore-user-config` and forces ChatGPT authentication; it does not edit global config or copy authentication tokens.
 
 From a checkout of this repository:
 
@@ -59,9 +59,9 @@ Use your existing Claude subscription login (`claude auth login`) and set `engin
 
 The maintained skill source is `skills/roy-identity/SKILL.md`. Installer copies it to `~/.agents/skills/roy-identity/` and `~/.claude/skills/roy-identity/`. It does not replace existing AGENTS.md/CLAUDE.md. Paste this block into global/project instructions or a Grok custom instruction:
 
-> Before identity or application work, read the latest immutable RoyWG925/builder-context AI_CONTEXT.md and generated/public.json, including ownerStatements. After a project milestone, queue evidence-backed candidates. When Roy explicitly confirms the exact public changes in the current conversation, preserve a scoped receipt and publish through scripts/chat-confirm.mjs without a second PR approval. Never invent approval or accept unrelated pending fields. Private evidence stays private; a demo is not disclosure approval. LinkedIn remains draft-only. If writes are unavailable, return the exact patch and evidence.
+> Before identity or application work, read the latest immutable theroyatlas/builder-context AI_CONTEXT.md and generated/public.json, including ownerStatements. After a project milestone, queue evidence-backed candidates. When Roy explicitly confirms the exact public changes in the current conversation, preserve a scoped receipt and publish through scripts/chat-confirm.mjs without a second PR approval. Never invent approval or accept unrelated pending fields. Private evidence stays private; a demo is not disclosure approval. LinkedIn remains draft-only. If writes are unavailable, return the exact patch and evidence.
 
-For external tools without GitHub access, open https://github.com/RoyWG925/builder-context/blob/main/AI_CONTEXT.md and paste the current context manually. This is a usable instruction, not an assertion that Grok was remotely configured.
+For external tools without GitHub access, open https://github.com/theroyatlas/builder-context/blob/main/AI_CONTEXT.md and paste the current context manually. This is a usable instruction, not an assertion that Grok was remotely configured.
 
 ## Historical cloud-session limitations (2026-10-19)
 

@@ -7,9 +7,9 @@ import {load,hash,json,save,publicBundle} from '../scripts/lib.mjs';
 import {applyChatConfirmation,validateApproval} from '../scripts/chat-confirm.mjs';
 import {propose,proposalKey} from '../scripts/proposals.mjs';
 import {normalize} from '../scripts/evidence.mjs';
-const assertPublic=async()=>({private:false,owner:{login:'RoyWG925'}});
+const assertPublic=async()=>({private:false,owner:{login:'theroyatlas'}});
 async function fixture(){const root=await mkdtemp(join(tmpdir(),'roy-chat-unit-'));for(const dir of ['profile','projects','competitions','evidence','templates'])await cp(dir,join(root,dir),{recursive:true});return root;}
-async function approval(root){const record=(await load(root)).projects.find(p=>p.id==='viral-town');return {schemaVersion:1,id:'isolated-chat-test',visibility:'public',by:'RoyWG925',channel:'chat',confirmedAt:'2026-10-19T13:32:21Z',ownerStatement:'ISOLATED confirmed contribution',authorizationStatement:'Publish this exact contribution.',reason:'Owner clarified their role',changes:[{kind:'project',id:record.id,baseRecordHash:hash(record),patch:{contribution:'ISOLATED confirmed contribution'}}],statements:[]};}
+async function approval(root){const record=(await load(root)).projects.find(p=>p.id==='viral-town');return {schemaVersion:1,id:'isolated-chat-test',visibility:'public',by:'theroyatlas',channel:'chat',confirmedAt:'2026-10-19T13:32:21Z',ownerStatement:'ISOLATED confirmed contribution',authorizationStatement:'Publish this exact contribution.',reason:'Owner clarified their role',changes:[{kind:'project',id:record.id,baseRecordHash:hash(record),patch:{contribution:'ISOLATED confirmed contribution'}}],statements:[]};}
 
 test('chat confirmation needs no PR and changes only explicitly approved fields',async()=>{
   const root=await fixture(),before=await load(root),a=await approval(root);
@@ -32,7 +32,7 @@ test('stale or invalid batch fails before any write, including unrelated earlier
   await assert.rejects(applyChatConfirmation(root,a,{apply:true,checkRepository:assertPublic}),/Stale/);assert.equal(hash(await load(root)),before);
 });
 test('blank approvals, outsider identity, private scope and unapproved fields fail closed',async()=>{
-  const root=await fixture();for(const mutate of [a=>a.by='outsider',a=>a.visibility='private',a=>a.ownerStatement='',a=>a.authorizationStatement='',a=>a.changes[0].patch.review={state:'owner-confirmed'},a=>a.changes[0].patch.privateNotes='secret',a=>a.statements.push({id:'private',by:'RoyWG925',date:'2026-10-19',source:'chat',statement:'x',privateNotes:'secret'})]){const a=await approval(root);mutate(a);assert.throws(()=>validateApproval(a));}
+  const root=await fixture();for(const mutate of [a=>a.by='outsider',a=>a.visibility='private',a=>a.ownerStatement='',a=>a.authorizationStatement='',a=>a.changes[0].patch.review={state:'owner-confirmed'},a=>a.changes[0].patch.privateNotes='secret',a=>a.statements.push({id:'private',by:'theroyatlas',date:'2026-10-19',source:'chat',statement:'x',privateNotes:'secret'})]){const a=await approval(root);mutate(a);assert.throws(()=>validateApproval(a));}
 });
 test('same approval is idempotent and cannot be reused with different content',async()=>{
   const root=await fixture(),a=await approval(root);await applyChatConfirmation(root,a,{apply:true,checkRepository:assertPublic});const before=hash(await load(root));
@@ -50,12 +50,12 @@ test('invalid award and unknown evidence remain rejected through the chat path',
 });
 test('a fully reviewed new public project can be created without PR metadata',async()=>{
   const root=await fixture(),a=await approval(root),base=(await load(root)).projects[0];
-  a.changes=[{kind:'project',id:'isolated-new-project',baseRecordHash:null,create:{...base,id:'isolated-new-project',name:'ISOLATED new project',repository:'https://github.com/RoyWG925/isolated-new-project',featured:false}}];
+  a.changes=[{kind:'project',id:'isolated-new-project',baseRecordHash:null,create:{...base,id:'isolated-new-project',name:'ISOLATED new project',repository:'https://github.com/theroyatlas/isolated-new-project',featured:false}}];
   await applyChatConfirmation(root,a,{apply:true,checkRepository:assertPublic});assert.ok((await load(root)).projects.some(p=>p.id==='isolated-new-project'));
 });
 test('confirmed statements enter shared context without accepting an entire pending project',async()=>{
   const root=await fixture(),a=await approval(root),before=(await load(root)).projects.length;
-  a.changes=[];a.statements=[{id:'isolated-solo',by:'RoyWG925',date:'2026-10-19',source:'Explicit owner chat',statement:'ISOLATED solo authorship only'}];
+  a.changes=[];a.statements=[{id:'isolated-solo',by:'theroyatlas',date:'2026-10-19',source:'Explicit owner chat',statement:'ISOLATED solo authorship only'}];
   await applyChatConfirmation(root,a,{apply:true,checkRepository:assertPublic});const after=await load(root);assert.equal(after.projects.length,before);assert.ok(publicBundle(after).ownerStatements.some(s=>s.id==='isolated-solo'));
 });
 test('pending queue is independent, deduplicates and never creates or merges a PR',async()=>{
@@ -65,7 +65,7 @@ test('pending queue is independent, deduplicates and never creates or merges a P
     if(path.includes('/git/commits/')&&!options.method)return {tree:{sha:'b'.repeat(40)}};
     if(path.endsWith('/git/trees')){for(const item of JSON.parse(options.body).tree)files.set(item.path,item.content);}
     return {sha:'c'.repeat(40)};}
-  const repo=n=>({name:n,html_url:`https://github.com/RoyWG925/${n}`,full_name:`RoyWG925/${n}`,owner:{login:'RoyWG925'},private:false,fork:false});
+  const repo=n=>({name:n,html_url:`https://github.com/theroyatlas/${n}`,full_name:`theroyatlas/${n}`,owner:{login:'theroyatlas'},private:false,fork:false});
   const pack={commit:'b'.repeat(40),fingerprint:'d'.repeat(64),checks:[],warning:'isolated'};
   const one=normalize(repo('isolated-one'),pack,null),two=normalize(repo('isolated-two'),pack,null);
   assert.equal((await propose(one,request)).created,true);assert.equal((await propose(two,request)).created,true);assert.equal((await propose(one,request)).created,false);

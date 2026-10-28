@@ -18,9 +18,9 @@ test('bounded evidence includes core engine, API, UI and tests even with many UI
 test('collector pins source reads and reports bounded public coverage without running code',async()=>{
   const commit='a'.repeat(40),calls=[],files=['README.md','package.json','src/sim/engine.ts','lab/test-engine.ts'].map((path,i)=>({path,type:'blob',size:500,sha:String(i).repeat(40)}));
   const request=async path=>{calls.push(path);if(path.includes('/commits?'))return [{sha:commit}];if(path.includes('/git/trees/'))return {tree:files};if(path.includes('/git/blobs/'))return {content:Buffer.from('Public test source, not executed.').toString('base64')};if(path.includes('/actions/runs?'))return {workflow_runs:[]};throw Error('Unexpected path '+path);};
-  const pack=await collect({name:'example',full_name:'RoyWG925/example',html_url:'https://github.com/RoyWG925/example',private:false,fork:false,owner:{login:'RoyWG925'}},request,{maxDocuments:3});
+  const pack=await collect({name:'example',full_name:'theroyatlas/example',html_url:'https://github.com/theroyatlas/example',private:false,fork:false,owner:{login:'theroyatlas'}},request,{maxDocuments:3});
   assert.equal(pack.commit,commit);assert.equal(pack.documents.length,3);assert.equal(pack.coverage.complete,false);
-  assert.ok(calls.includes(`/repos/RoyWG925/example/git/trees/${commit}?recursive=1`));assert.ok(calls.every(p=>!p.includes('/user/')&&!p.includes('private')));
+  assert.ok(calls.includes(`/repos/theroyatlas/example/git/trees/${commit}?recursive=1`));assert.ok(calls.every(p=>!p.includes('/user/')&&!p.includes('private')));
 });
 
 test('subscription subprocess strips paid-key overrides and nested app session identifiers',()=>{
@@ -50,14 +50,14 @@ test('a second invocation cannot acquire the first run lock or make network requ
 });
 
 test('source quotes cannot silently splice separate lines into one claim',()=>{
-  const repo={name:'example',full_name:'RoyWG925/example',html_url:'https://github.com/RoyWG925/example'},pack={commit:'a'.repeat(40),fingerprint:'b'.repeat(64),documents:[{path:'package.json',content:'"next": "16.4.2",\n"postprocessing": "6",\n"react": "19.3.0"'}],checks:[]};
+  const repo={name:'example',full_name:'theroyatlas/example',html_url:'https://github.com/theroyatlas/example'},pack={commit:'a'.repeat(40),fingerprint:'b'.repeat(64),documents:[{path:'package.json',content:'"next": "16.4.2",\n"postprocessing": "6",\n"react": "19.3.0"'}],checks:[]};
   const analysis={summary:null,contribution:null,technologies:['React'],results:null,limitations:null,reason:'Source evidence',claims:[{kind:'technology',path:'package.json',quote:'"next": "16.4.2",\n"react": "19.3.0"'}]};
   assert.throws(()=>normalize(repo,pack,null,undefined,analysis),/Unsupported AI claim/);
   analysis.claims[0].quote='"react": "19.3.0"';assert.equal(normalize(repo,pack,null,undefined,analysis).record.review.state,'proposed');
 });
 
 test('local assessments cannot substitute another repository or omit supplied coverage',()=>{
-  const packs=[{repository:'RoyWG925/example'}],answer={updates:[],skipped:[{repository:packs[0].repository,reason:'No meaningful change'}],assessments:[]};
+  const packs=[{repository:'theroyatlas/example'}],answer={updates:[],skipped:[{repository:packs[0].repository,reason:'No meaningful change'}],assessments:[]};
   assert.throws(()=>validateAnalysis(answer,packs),/Missing repository assessment/);
   answer.assessments=[{repository:'other/private',attribution:'unknown',existingFacts:[],newFindings:[],technicalDecisions:[],testEvidence:[],limitations:[]}];
   assert.throws(()=>validateAnalysis(answer,packs),/Invalid repository assessment/);

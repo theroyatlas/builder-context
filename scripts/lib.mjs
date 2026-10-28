@@ -2,7 +2,7 @@ import { readFile, readdir, mkdir, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
 
-export const OWNER = 'RoyWG925';
+export const OWNER = 'theroyatlas';
 export const REPO = `${OWNER}/builder-context`;
 export const PUBLIC_STATES = new Set(['published-baseline', 'owner-confirmed', 'owner-attested']);
 export const ID = /^[a-z0-9][a-z0-9-]{0,95}$/;

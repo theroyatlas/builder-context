@@ -10,7 +10,7 @@
     "technologies": [],
     "status": "archived-repository",
     "period": "2026",
-    "repository": "https://github.com/RoyWG925/T-MINUS",
+    "repository": "https://github.com/theroyatlas/T-MINUS",
     "demo": null,
     "results": [],
     "limitations": [
@@ -32,7 +32,7 @@
     {
       "id": "scan-t-minus-bd56cc3b5547",
       "visibility": "public",
-      "url": "https://github.com/RoyWG925/T-MINUS/tree/bd56cc3b5547ddadce0269b67e5844d1d07a1c6f",
+      "url": "https://github.com/theroyatlas/T-MINUS/tree/bd56cc3b5547ddadce0269b67e5844d1d07a1c6f",
       "kind": "repository-snapshot",
       "checkedAt": "2026-10-20",
       "commit": "bd56cc3b5547ddadce0269b67e5844d1d07a1c6f"
@@ -50,14 +50,14 @@
         "name": "pages build and deployment",
         "status": "completed",
         "conclusion": "success",
-        "url": "https://github.com/RoyWG925/T-MINUS/actions/runs/39356180804",
+        "url": "https://github.com/theroyatlas/T-MINUS/actions/runs/39356180804",
         "commit": "bd56cc3b5547ddadce0269b67e5844d1d07a1c6f"
       },
       {
         "name": "pages build and deployment",
         "status": "queued",
         "conclusion": null,
-        "url": "https://github.com/RoyWG925/T-MINUS/actions/runs/39355321784",
+        "url": "https://github.com/theroyatlas/T-MINUS/actions/runs/39355321784",
         "commit": "bd56cc3b5547ddadce0269b67e5844d1d07a1c6f"
       }
     ],

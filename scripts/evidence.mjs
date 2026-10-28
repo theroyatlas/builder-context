@@ -1,5 +1,5 @@
 import {OWNER, ID, api, hash, validateProject} from './lib.mjs';
-const EXCLUDE=new Set(['builder-context','builder-context-private','RoyWG925','portfolio-astro','RoyWG925.github.io']);
+const EXCLUDE=new Set(['builder-context','builder-context-private','theroyatlas','portfolio-astro','theroyatlas.github.io']);
 export function eligible(r){return r.owner?.login===OWNER&&r.private===false&&!r.fork&&!EXCLUDE.has(r.name);}
 export const projectId=name=>name.toLowerCase().replace(/[^a-z0-9-]/g,'-');
 export function relevant(path){return !/(^|\/)(node_modules|dist|build|generated|\.git|vendor|coverage|addons\/gut)(\/|$)/i.test(path)&&!/(lock\.(json|yaml)|package-lock\.json|yarn\.lock|\.png|\.jpe?g|\.gif|\.svg|\.pdf|\.mp[34]|\.woff2?)$/i.test(path);}

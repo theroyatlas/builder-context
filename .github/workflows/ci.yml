@@ -27,12 +27,12 @@ jobs:
           persist-credentials: false
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
-          repository: RoyWG925/RoyWG925
+          repository: theroyatlas/theroyatlas
           path: profile
           persist-credentials: false
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
-          repository: RoyWG925/portfolio-astro
+          repository: theroyatlas/portfolio-astro
           path: portfolio
           persist-credentials: false
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
