@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 2,
+  "kind": "project",
+  "record": {
+    "id": "viral-town",
+    "visibility": "public",
+    "name": "VIRAL - One whisper, a living town",
+    "summary": "AI-driven town simulation: whisper a sentence to a resident and watch its consequences. Gemma on AMD generates character reactions; a deterministic engine validates actions and records causal events.",
+    "contribution": "Roy handled AI Agent testing and iteration; his teammate handled competition materials, interface and visual design. They jointly developed the concept and gameplay.",
+    "technologies": [
+      "TypeScript",
+      "Next.js",
+      "Gemma",
+      "AMD Token Factory"
+    ],
+    "status": "deployed",
+    "period": "2026",
+    "repository": "https://github.com/theroyatlas/viral-town",
+    "demo": "https://viral-town.vercel.app",
+    "results": [
+      "Published a playable experience with validated model actions and an inspectable chain of causes."
+    ],
+    "limitations": [
+      "Live runs depend on model latency. Entertainment claims have not been validated with human playtesters.",
+      "Roy confirms completion and submission to AMD Developer Hackathon ACT III; results are pending. Division of work is explicitly owner-attested; competition results remain unknown."
+    ],
+    "lessons": [
+      "Separate model-generated decisions from deterministic state changes and make failures observable."
+    ],
+    "evidence": [
+      "viral-readme",
+      "chat-roy-20261019-chat-attribution",
+      "scan-viral-town-79dd8b742894"
+    ],
+    "lastVerified": "2026-10-29",
+    "featured": true,
+    "order": 1,
+    "review": {
+      "state": "proposed",
+      "date": "2026-10-29"
+    }
+  },
+  "sources": [
+    {
+      "id": "scan-viral-town-79dd8b742894",
+      "visibility": "public",
+      "url": "https://github.com/theroyatlas/viral-town/tree/79dd8b742894bdc6b296c1544c4ccc2bcc7e2768",
+      "kind": "repository-snapshot",
+      "checkedAt": "2026-10-29",
+      "commit": "79dd8b742894bdc6b296c1544c4ccc2bcc7e2768"
+    }
+  ],
+  "baseRecordHash": "9df6e8eb9d2fbf4de10582adfede5316c8da3dc6d74b4f99dacbfc7f7cd6c8a9",
+  "discovery": {
+    "commit": "79dd8b742894bdc6b296c1544c4ccc2bcc7e2768",
+    "fingerprint": "a2427f94a88c0232b54cf31bbce3a8a412f3fafdd6af54c8967182d25e32d93a",
+    "engine": "github-evidence",
+    "reason": "Public source changed; inspect pinned evidence before accepting facts.",
+    "claims": [],
+    "checks": [],
+    "notes": "Bounded public source coverage, not an exhaustive audit. Untrusted repository content; claims are repository-reported unless explicitly rerun. Ownership does not establish personal contribution."
+  },
+  "baseCanonicalCommit": "9a5e8e22bba59446704ff8d380c5302c817324ef"
+}
