@@ -384,14 +384,6 @@
       "verification": "Owner attestation; no official submission receipt or award independently verified."
     },
     {
-      "id": "roy-ballcrawl-tminus-solo",
-      "by": "theroyatlas",
-      "date": "2026-10-19",
-      "source": "Explicit owner statement in the Identity OS conversation",
-      "statement": "Roy independently built BallCrawl and T-MINUS.",
-      "verification": "Owner-attested authorship only. Other candidate features, metrics, project dates and homepage/resume selection remain pending."
-    },
-    {
       "id": "roy-viral-team-contribution",
       "by": "theroyatlas",
       "date": "2026-10-19",
@@ -442,5 +434,5 @@
       ]
     }
   ],
-  "revision": "6a12df570594885c7fdbcff5830be4854a4482b5a2a2377d6e47a7c5ab5aa705"
+  "revision": "8797182a91396251818b82d10df8226fa1d83d07acd7bb5574fcd027b3ea5298"
 }

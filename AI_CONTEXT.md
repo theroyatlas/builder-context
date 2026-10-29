@@ -1,8 +1,8 @@
-<!-- Generated from theroyatlas/builder-context. Edit canonical JSON, not this file. Revision: 6a12df570594885c7fdbcff5830be4854a4482b5a2a2377d6e47a7c5ab5aa705 -->
+<!-- Generated from theroyatlas/builder-context. Edit canonical JSON, not this file. Revision: 8797182a91396251818b82d10df8226fa1d83d07acd7bb5574fcd027b3ea5298 -->
 # Roy Identity OS - shared agent context
 
 Source: https://github.com/theroyatlas/builder-context
-Revision: 6a12df570594885c7fdbcff5830be4854a4482b5a2a2377d6e47a7c5ab5aa705
+Revision: 8797182a91396251818b82d10df8226fa1d83d07acd7bb5574fcd027b3ea5298
 
 ## Read this first
 - Public canonical facts live in profile/, projects/, competitions/, and evidence/.
@@ -74,7 +74,6 @@ Evidence: [nucleus-readme](https://github.com/theroyatlas/nucleus-io/blob/072dae
 ## Explicit owner statements
 - Development direction: AI-native Consumer Products, AI Agent Engineering, Creative Technology, Interactive Experiences. Building products with usage, return visits and willingness to pay is an aspiration, not a reported outcome. (Roy, 2026-10-19; Explicit owner instruction during Identity OS phase 2)
 - VIRAL has been completed and submitted to AMD Developer Hackathon ACT III. Competition results have not been announced. (Roy, 2026-10-19; Explicit owner instruction during Identity OS phase 2)
-- Roy independently built BallCrawl and T-MINUS. (Roy, 2026-10-19; Explicit owner statement in the Identity OS conversation)
 - VIRAL is a team project. Roy handled AI Agent testing and iteration; the teammate handled competition materials, interface and visual design; concept and gameplay were shared. (Roy, 2026-10-19; Explicit owner statement in the Identity OS conversation)
 
 ## Skills already published
@@ -86,7 +85,7 @@ Toolchain: Git / GitHub, Cursor, Claude Code, GitHub Copilot, Godot, Figma, Dock
 ## Education
 National Taiwan Normal University (NTNU); B.S. in Learning Sciences; 2021 - 2026
 
-<!-- Generated from theroyatlas/builder-context. Edit canonical JSON, not this file. Revision: 6a12df570594885c7fdbcff5830be4854a4482b5a2a2377d6e47a7c5ab5aa705 -->
+<!-- Generated from theroyatlas/builder-context. Edit canonical JSON, not this file. Revision: 8797182a91396251818b82d10df8226fa1d83d07acd7bb5574fcd027b3ea5298 -->
 # Introductions by audience
 
 ## AI Engineer / Full-stack Engineer

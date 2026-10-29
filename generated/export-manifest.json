@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "revision": "6a12df570594885c7fdbcff5830be4854a4482b5a2a2377d6e47a7c5ab5aa705",
+  "revision": "8797182a91396251818b82d10df8226fa1d83d07acd7bb5574fcd027b3ea5298",
   "files": {
-    "generated/public.json": "1d975e6eedf1a8955a66eed91294f6224fe349a87a0a187e5df23d0574a716a1",
-    "generated/profile-readme.md": "743ce0fff1416c6165c43db273851e1d6d8aadb60e106e84fb6e9ab49ff3dc44",
-    "AI_CONTEXT.md": "eab937d3ad56609a3d6e4881560d58e507e91740717c93b9da81aee2424941eb",
-    "generated/resume.md": "77cfce28a8f25e070fa44624100b370ae59703ef8851bf90ec6e253925450ee5",
-    "generated/resume.html": "f36d1a700883f6d32e9c2c55fcc6df61fe67cf0fd6628bd669690f83644b3853",
-    "generated/linkedin.md": "a923f0a1d45c1315253aa9064be038f2ace3b563c15fd73b2176e26d69295d46",
-    "generated/applications.json": "a69e9c406408029adf688dc67515bce8caa7b842b48b17e8cb50cefaf5d67086",
-    "generated/introductions.md": "904a938cce08dbcb2def4b3f4579ca6d8106ebb362a0056612edaf059bb651fd",
-    "generated/introductions.json": "5d2eef7490fb6fcad924551f8dad4c80e5244ae8283fb46feb30706f8c4bc5e4"
+    "generated/public.json": "4c158c4c13f383723e10c79e14902535b6f0ee2d449282a80c41111565c30608",
+    "generated/profile-readme.md": "e90ac27c5c311dd05807add2ce8b8308401d1b4e77b220013e094e963f2fc96b",
+    "AI_CONTEXT.md": "a4a9a72aebbf4b2a5980331d21bdf377a21672aac29e37a8928933623291a7dc",
+    "generated/resume.md": "c033f17bbcd401c0ab200f97c59d37abea4862f5b9346cd672f5661c7b79fec3",
+    "generated/resume.html": "acf203ac8593d63262c5717b8e9f8df1b4cefa15d658dac1128a28489f38ebd9",
+    "generated/linkedin.md": "a693286b575398f953573709492f9b1ebea5ea576b10878174f1725620ac85b2",
+    "generated/applications.json": "87d3d11061341d36e4bfce12944be8b68a08d31120f558ab20ddcbcdc34e765a",
+    "generated/introductions.md": "81b17f3bf81fccc1b3677b942e2498f79255841d1ad8d3b93d77c2e90e44a243",
+    "generated/introductions.json": "9ee882bbc2bb4df5bae444007dee7a673aecb923c18c2051684199045b2270bc"
   }
 }
