@@ -80,6 +80,14 @@
       "kind": "owner-attestation",
       "checkedAt": "2026-10-19",
       "commit": null
+    },
+    {
+      "id": "chat-roy-20261031-positioning",
+      "visibility": "public",
+      "url": "https://github.com/theroyatlas/builder-context/blob/main/receipts/chat-roy-20261031-positioning.json",
+      "kind": "owner-attestation",
+      "checkedAt": "2026-11-02",
+      "commit": null
     }
   ]
 }

@@ -1,8 +1,8 @@
-<!-- Generated from theroyatlas/builder-context. Edit canonical JSON, not this file. Revision: 8797182a91396251818b82d10df8226fa1d83d07acd7bb5574fcd027b3ea5298 -->
+<!-- Generated from theroyatlas/builder-context. Edit canonical JSON, not this file. Revision: 9c3f63628b1a3edd11209aec4510836ceda059d315a4f63de347900dde5e7bfc -->
 # Roy Identity OS - shared agent context
 
 Source: https://github.com/theroyatlas/builder-context
-Revision: 8797182a91396251818b82d10df8226fa1d83d07acd7bb5574fcd027b3ea5298
+Revision: 9c3f63628b1a3edd11209aec4510836ceda059d315a4f63de347900dde5e7bfc
 
 ## Read this first
 - Public canonical facts live in profile/, projects/, competitions/, and evidence/.
@@ -16,9 +16,9 @@ Revision: 8797182a91396251818b82d10df8226fa1d83d07acd7bb5574fcd027b3ea5298
 
 ## Profile
 Yuyang (Roy) Wang (王語揚)
-AI Engineer & Product Builder
-Building AI-native consumer products, agents and interactive experiences.
-Taipei, Taiwan; Open to Work.
+Applied AI Engineer | LLM Agents
+I build and test LLM agents. Current focus: memory for AI agents.
+Taipei, Taiwan (UTC+8); Open to Work · Global remote or relocation.
 
 Graduated from National Taiwan Normal University (B.S., Learning Sciences, 2026). My HCI background shapes how I approach the interaction between people and complex systems.
 
@@ -47,25 +47,25 @@ Limitations: The reported 0.683 macro-F1 used a test set overlapping training an
 Lessons: Separate exploratory scores from held-out evaluation and publish corrections when recomputation changes the conclusion.
 Evidence: [ptt-readme](https://github.com/theroyatlas/ptt-sentiment-stock-analysis/blob/731cfbb089427efbf47026e3235be029d3c46fb6/README.md) · [ptt-errata](https://github.com/theroyatlas/ptt-sentiment-stock-analysis/blob/731cfbb089427efbf47026e3235be029d3c46fb6/ERRATA.md) · [portfolio-existing](https://github.com/theroyatlas/portfolio-astro/blob/14b6f7be999b2dbab116198c97da9e4e13b3313c/src/pages/index.astro)
 
-### Is my major worth it?
-Status: prototype; period: 2025; last verified: 2026-10-19; review: published-baseline.
-Interactive dashboard comparing Taiwan university admission scores with graduate salaries across 1,787 programs, with field-level salary distributions and methodology notes.
-Contribution: NTNU course project authored by Roy Wang, as credited in the public README.
-Technology: Python, Streamlit, Plotly, pandas
-Results: Joined admission and field-level salary data and built an interactive exploration interface.
-Limitations: Salary data are at field level, not individual program outcomes. No public server demo is documented.
-Lessons: Make data grain and proxy assumptions visible alongside comparisons.
-Evidence: [university-readme](https://github.com/theroyatlas/taiwan-uni-cp-value/blob/5881b1df4347ecf449ae94f946afc4733a2d3afb/README.md)
-
 ### NUCLEUS.IO
-Status: deployed; period: 2026; last verified: 2026-10-19; review: published-baseline.
+Status: deployed; period: 2026; last verified: 2026-11-02; review: owner-attested.
 Flyable 3D portfolio built with Three.js, custom GLSL post-processing, procedural audio, and interactive project orbs.
 Contribution: Roy Wang's developer portfolio, as identified in its public README.
 Technology: Three.js, WebGL, GLSL, Vite, Web Audio API
 Results: Published an interactive WebGL portfolio with flight, project exploration, and synthesized audio.
 Limitations: Requires a browser with WebGL2.
 Lessons: Use interaction and motion to make a portfolio explorable.
-Evidence: [nucleus-readme](https://github.com/theroyatlas/nucleus-io/blob/072dae5886fef81107f1dc1e6b31f63b527140bc/README.md)
+Evidence: [nucleus-readme](https://github.com/theroyatlas/nucleus-io/blob/072dae5886fef81107f1dc1e6b31f63b527140bc/README.md) · [chat-roy-20261031-positioning](https://github.com/theroyatlas/builder-context/blob/main/receipts/chat-roy-20261031-positioning.json)
+
+### Is my major worth it?
+Status: prototype; period: 2025; last verified: 2026-11-02; review: owner-attested.
+Interactive dashboard comparing Taiwan university admission scores with graduate salaries across 1,787 programs, with field-level salary distributions and methodology notes.
+Contribution: NTNU course project authored by Roy Wang, as credited in the public README.
+Technology: Python, Streamlit, Plotly, pandas
+Results: Joined admission and field-level salary data and built an interactive exploration interface.
+Limitations: Salary data are at field level, not individual program outcomes. No public server demo is documented.
+Lessons: Make data grain and proxy assumptions visible alongside comparisons.
+Evidence: [university-readme](https://github.com/theroyatlas/taiwan-uni-cp-value/blob/5881b1df4347ecf449ae94f946afc4733a2d3afb/README.md) · [chat-roy-20261031-positioning](https://github.com/theroyatlas/builder-context/blob/main/receipts/chat-roy-20261031-positioning.json)
 
 ## Competitions
 - AMD Developer Hackathon ACT III, Track 4 - Create a New Kind of Experience, 2026-10. Status: submitted. Submitted: true. Result: unknown. VIRAL is completed and submitted, according to Roy's explicit statement on 2026-10-19. Results are pending; no award is claimed. The official submission receipt has not been independently verified.
@@ -75,6 +75,7 @@ Evidence: [nucleus-readme](https://github.com/theroyatlas/nucleus-io/blob/072dae
 - Development direction: AI-native Consumer Products, AI Agent Engineering, Creative Technology, Interactive Experiences. Building products with usage, return visits and willingness to pay is an aspiration, not a reported outcome. (Roy, 2026-10-19; Explicit owner instruction during Identity OS phase 2)
 - VIRAL has been completed and submitted to AMD Developer Hackathon ACT III. Competition results have not been announced. (Roy, 2026-10-19; Explicit owner instruction during Identity OS phase 2)
 - VIRAL is a team project. Roy handled AI Agent testing and iteration; the teammate handled competition materials, interface and visual design; concept and gameplay were shared. (Roy, 2026-10-19; Explicit owner statement in the Identity OS conversation)
+- Roy is currently focusing on memory for AI agents and is open to global remote work and to relocating abroad. (Roy, 2026-10-31; Explicit owner statement in the Identity OS conversation)
 
 ## Skills already published
 Applied NLP: Python, PyTorch, Hugging Face Transformers, BERT fine-tuning, pandas, Jupyter
@@ -85,7 +86,7 @@ Toolchain: Git / GitHub, Cursor, Claude Code, GitHub Copilot, Godot, Figma, Dock
 ## Education
 National Taiwan Normal University (NTNU); B.S. in Learning Sciences; 2021 - 2026
 
-<!-- Generated from theroyatlas/builder-context. Edit canonical JSON, not this file. Revision: 8797182a91396251818b82d10df8226fa1d83d07acd7bb5574fcd027b3ea5298 -->
+<!-- Generated from theroyatlas/builder-context. Edit canonical JSON, not this file. Revision: 9c3f63628b1a3edd11209aec4510836ceda059d315a4f63de347900dde5e7bfc -->
 # Introductions by audience
 
 ## AI Engineer / Full-stack Engineer

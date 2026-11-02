@@ -1,6 +1,6 @@
-<!-- Generated from theroyatlas/builder-context. Edit canonical JSON, not this file. Revision: 8797182a91396251818b82d10df8226fa1d83d07acd7bb5574fcd027b3ea5298 -->
+<!-- Generated from theroyatlas/builder-context. Edit canonical JSON, not this file. Revision: 9c3f63628b1a3edd11209aec4510836ceda059d315a4f63de347900dde5e7bfc -->
 # Yuyang (Roy) Wang
-AI Engineer & Product Builder
+Applied AI Engineer | LLM Agents
 
 jg971402@gmail.com · https://github.com/theroyatlas · https://theroyatlas.github.io/portfolio-astro/
 
@@ -22,19 +22,19 @@ Roy handled BERT training, coding, crawling, and statistical analysis in a three
 - Implemented a text ingestion, labeling, model training, and event-study workflow.
 Limitations: The reported 0.683 macro-F1 used a test set overlapping training and tuning. The repository reports 0.580 on a 45-item consensus-labeled holdout. This is a single-event, same-day association study; it does not establish market prediction.
 
-### Is my major worth it? (2025)
-https://github.com/theroyatlas/taiwan-uni-cp-value
-Interactive dashboard comparing Taiwan university admission scores with graduate salaries across 1,787 programs, with field-level salary distributions and methodology notes.
-NTNU course project authored by Roy Wang, as credited in the public README.
-- Joined admission and field-level salary data and built an interactive exploration interface.
-Limitations: Salary data are at field level, not individual program outcomes. No public server demo is documented.
-
 ### NUCLEUS.IO (2026)
 https://github.com/theroyatlas/nucleus-io
 Flyable 3D portfolio built with Three.js, custom GLSL post-processing, procedural audio, and interactive project orbs.
 Roy Wang's developer portfolio, as identified in its public README.
 - Published an interactive WebGL portfolio with flight, project exploration, and synthesized audio.
 Limitations: Requires a browser with WebGL2.
+
+### Is my major worth it? (2025)
+https://github.com/theroyatlas/taiwan-uni-cp-value
+Interactive dashboard comparing Taiwan university admission scores with graduate salaries across 1,787 programs, with field-level salary distributions and methodology notes.
+NTNU course project authored by Roy Wang, as credited in the public README.
+- Joined admission and field-level salary data and built an interactive exploration interface.
+Limitations: Salary data are at field level, not individual program outcomes. No public server demo is documented.
 
 ## Technical skills
 - Applied NLP: Python, PyTorch, Hugging Face Transformers, BERT fine-tuning, pandas, Jupyter

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "8797182a91396251818b82d10df8226fa1d83d07acd7bb5574fcd027b3ea5298",
+  "revision": "9c3f63628b1a3edd11209aec4510836ceda059d315a4f63de347900dde5e7bfc",
   "profile": {
     "schemaVersion": 1,
     "visibility": "public",
@@ -8,10 +8,10 @@
     "fullName": "Yuyang (Roy) Wang",
     "nameZh": "王語揚",
     "github": "theroyatlas",
-    "headline": "AI Engineer & Product Builder",
-    "tagline": "Building AI-native consumer products, agents and interactive experiences.",
-    "location": "Taipei, Taiwan",
-    "availability": "Open to Work",
+    "headline": "Applied AI Engineer | LLM Agents",
+    "tagline": "I build and test LLM agents. Current focus: memory for AI agents.",
+    "location": "Taipei, Taiwan (UTC+8)",
+    "availability": "Open to Work · Global remote or relocation",
     "email": "jg971402@gmail.com",
     "links": {
       "github": "https://github.com/theroyatlas",
@@ -20,10 +20,10 @@
       "context": "https://github.com/theroyatlas/builder-context"
     },
     "focus": [
-      "AI-native Consumer Products",
-      "AI Agent Engineering",
-      "Creative Technology",
-      "Interactive Experiences"
+      "LLM Agent Engineering",
+      "Agent Memory (current focus)",
+      "Applied NLP",
+      "Interactive Interfaces (WebGL)"
     ],
     "about": [
       "Graduated from National Taiwan Normal University (B.S., Learning Sciences, 2026). My HCI background shapes how I approach the interaction between people and complex systems.",
@@ -86,14 +86,13 @@
       }
     ],
     "review": {
-      "state": "published-baseline",
-      "basis": "Existing public profile/portfolio baseline. Product direction and aspirations additionally supplied by Roy in the phase-2 instruction; this does not newly attest every baseline field.",
-      "date": "2026-10-19",
+      "state": "owner-attested",
+      "by": "theroyatlas",
+      "date": "2026-11-02",
       "evidence": [
-        "profile-existing",
-        "portfolio-existing",
-        "roy-phase2-direction"
-      ]
+        "chat-roy-20261031-positioning"
+      ],
+      "basis": "Chat approval for headline, tagline, location, availability, focus. Unchanged fields retain their prior evidence (published-baseline). Receipt SHA256: bd5886ab0c34d4e9b72c8435fa0737179a45fa928fd6ef953c789fd9a81db7c6."
     }
   },
   "projects": [
@@ -182,43 +181,6 @@
       }
     },
     {
-      "id": "taiwan-uni-cp-value",
-      "visibility": "public",
-      "name": "Is my major worth it?",
-      "summary": "Interactive dashboard comparing Taiwan university admission scores with graduate salaries across 1,787 programs, with field-level salary distributions and methodology notes.",
-      "contribution": "NTNU course project authored by Roy Wang, as credited in the public README.",
-      "technologies": [
-        "Python",
-        "Streamlit",
-        "Plotly",
-        "pandas"
-      ],
-      "status": "prototype",
-      "period": "2025",
-      "repository": "https://github.com/theroyatlas/taiwan-uni-cp-value",
-      "demo": null,
-      "results": [
-        "Joined admission and field-level salary data and built an interactive exploration interface."
-      ],
-      "limitations": [
-        "Salary data are at field level, not individual program outcomes. No public server demo is documented."
-      ],
-      "lessons": [
-        "Make data grain and proxy assumptions visible alongside comparisons."
-      ],
-      "evidence": [
-        "university-readme"
-      ],
-      "lastVerified": "2026-10-19",
-      "featured": true,
-      "order": 3,
-      "review": {
-        "state": "published-baseline",
-        "date": "2026-10-19",
-        "basis": "Migrated current public README and existing profile."
-      }
-    },
-    {
       "id": "nucleus-io",
       "visibility": "public",
       "name": "NUCLEUS.IO",
@@ -245,15 +207,62 @@
         "Use interaction and motion to make a portfolio explorable."
       ],
       "evidence": [
-        "nucleus-readme"
+        "nucleus-readme",
+        "chat-roy-20261031-positioning"
       ],
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-11-02",
+      "featured": true,
+      "order": 3,
+      "review": {
+        "state": "owner-attested",
+        "by": "theroyatlas",
+        "date": "2026-11-02",
+        "evidence": [
+          "chat-roy-20261031-positioning"
+        ],
+        "basis": "Chat approval for order. Unchanged fields retain their prior evidence (published-baseline). Receipt SHA256: bd5886ab0c34d4e9b72c8435fa0737179a45fa928fd6ef953c789fd9a81db7c6."
+      }
+    },
+    {
+      "id": "taiwan-uni-cp-value",
+      "visibility": "public",
+      "name": "Is my major worth it?",
+      "summary": "Interactive dashboard comparing Taiwan university admission scores with graduate salaries across 1,787 programs, with field-level salary distributions and methodology notes.",
+      "contribution": "NTNU course project authored by Roy Wang, as credited in the public README.",
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "Plotly",
+        "pandas"
+      ],
+      "status": "prototype",
+      "period": "2025",
+      "repository": "https://github.com/theroyatlas/taiwan-uni-cp-value",
+      "demo": null,
+      "results": [
+        "Joined admission and field-level salary data and built an interactive exploration interface."
+      ],
+      "limitations": [
+        "Salary data are at field level, not individual program outcomes. No public server demo is documented."
+      ],
+      "lessons": [
+        "Make data grain and proxy assumptions visible alongside comparisons."
+      ],
+      "evidence": [
+        "university-readme",
+        "chat-roy-20261031-positioning"
+      ],
+      "lastVerified": "2026-11-02",
       "featured": true,
       "order": 4,
       "review": {
-        "state": "published-baseline",
-        "date": "2026-10-19",
-        "basis": "Migrated current public README and existing portfolio."
+        "state": "owner-attested",
+        "by": "theroyatlas",
+        "date": "2026-11-02",
+        "evidence": [
+          "chat-roy-20261031-positioning"
+        ],
+        "basis": "Chat approval for order. Unchanged fields retain their prior evidence (published-baseline). Receipt SHA256: bd5886ab0c34d4e9b72c8435fa0737179a45fa928fd6ef953c789fd9a81db7c6."
       }
     }
   ],

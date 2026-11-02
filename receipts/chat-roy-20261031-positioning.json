@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "approvalHash": "bd5886ab0c34d4e9b72c8435fa0737179a45fa928fd6ef953c789fd9a81db7c6",
+  "approval": {
+    "schemaVersion": 1,
+    "id": "roy-20261031-positioning",
+    "visibility": "public",
+    "by": "theroyatlas",
+    "channel": "chat",
+    "confirmedAt": "2026-11-02T16:51:53Z",
+    "ownerStatement": "我最近想專研AI memory的部分；職缺要找全世界的，包含遠端工作；願意搬到國外；專案順序調整同意（好）；先改。",
+    "authorizationStatement": "確認發布",
+    "reason": "Roy approved the shown positioning preview in chat: new headline, tagline, focus, location, availability and project order (NUCLEUS.IO third, taiwan-uni-cp-value fourth). Other profile fields, VIRAL contribution and competition records unchanged; VIRAL correction stays held until ACT III results.",
+    "changes": [
+      {
+        "kind": "profile",
+        "id": "theroyatlas",
+        "baseRecordHash": "cd6b063de19e573d7434edf54514ff0e9c29005880c1bf5074a078cbf5cd02e8",
+        "patch": {
+          "headline": "Applied AI Engineer | LLM Agents",
+          "tagline": "I build and test LLM agents. Current focus: memory for AI agents.",
+          "location": "Taipei, Taiwan (UTC+8)",
+          "availability": "Open to Work · Global remote or relocation",
+          "focus": [
+            "LLM Agent Engineering",
+            "Agent Memory (current focus)",
+            "Applied NLP",
+            "Interactive Interfaces (WebGL)"
+          ]
+        }
+      },
+      {
+        "kind": "project",
+        "id": "nucleus-io",
+        "baseRecordHash": "5b152646e7323da38374e6a365edd0723bb75e535fffd3187194eb9a33c4e3b6",
+        "patch": {
+          "order": 3
+        }
+      },
+      {
+        "kind": "project",
+        "id": "taiwan-uni-cp-value",
+        "baseRecordHash": "d174e20786374c1d46785d932840ad8571ca7a9ef9573abb8b0d97ede0e3b209",
+        "patch": {
+          "order": 4
+        }
+      }
+    ],
+    "statements": [
+      {
+        "id": "roy-20261031-direction-relocation",
+        "by": "theroyatlas",
+        "date": "2026-10-31",
+        "source": "Explicit owner statement in the Identity OS conversation",
+        "statement": "Roy is currently focusing on memory for AI agents and is open to global remote work and to relocating abroad.",
+        "verification": "Owner-attested direction and availability. Memory is a current focus, not a claim of published work or results."
+      }
+    ],
+    "sources": []
+  },
+  "changes": [
+    {
+      "kind": "profile",
+      "id": "theroyatlas",
+      "fields": [
+        "headline",
+        "tagline",
+        "location",
+        "availability",
+        "focus"
+      ],
+      "beforeHash": "cd6b063de19e573d7434edf54514ff0e9c29005880c1bf5074a078cbf5cd02e8",
+      "afterHash": "3d0a336b364c429b3658a8e1c39839ab6dd823391656dcb2ef2052df7d795f69"
+    },
+    {
+      "kind": "project",
+      "id": "nucleus-io",
+      "fields": [
+        "order"
+      ],
+      "beforeHash": "5b152646e7323da38374e6a365edd0723bb75e535fffd3187194eb9a33c4e3b6",
+      "afterHash": "28160645d9a7eb77934dc5a08701af14fec6e356dd47075805a1af1bf9d5b0e7"
+    },
+    {
+      "kind": "project",
+      "id": "taiwan-uni-cp-value",
+      "fields": [
+        "order"
+      ],
+      "beforeHash": "d174e20786374c1d46785d932840ad8571ca7a9ef9573abb8b0d97ede0e3b209",
+      "afterHash": "20dbd3eab063f24f5ffb88eb3b8694e6483f1b26e44549b2132083f352ea0b20"
+    }
+  ],
+  "confirmed": true,
+  "method": "explicit-owner-chat"
+}

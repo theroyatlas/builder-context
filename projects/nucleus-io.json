@@ -4,17 +4,40 @@
   "name": "NUCLEUS.IO",
   "summary": "Flyable 3D portfolio built with Three.js, custom GLSL post-processing, procedural audio, and interactive project orbs.",
   "contribution": "Roy Wang's developer portfolio, as identified in its public README.",
-  "technologies": ["Three.js", "WebGL", "GLSL", "Vite", "Web Audio API"],
+  "technologies": [
+    "Three.js",
+    "WebGL",
+    "GLSL",
+    "Vite",
+    "Web Audio API"
+  ],
   "status": "deployed",
   "period": "2026",
   "repository": "https://github.com/theroyatlas/nucleus-io",
   "demo": "https://nucleus-io.vercel.app",
-  "results": ["Published an interactive WebGL portfolio with flight, project exploration, and synthesized audio."],
-  "limitations": ["Requires a browser with WebGL2."],
-  "lessons": ["Use interaction and motion to make a portfolio explorable."],
-  "evidence": ["nucleus-readme"],
-  "lastVerified": "2026-10-19",
+  "results": [
+    "Published an interactive WebGL portfolio with flight, project exploration, and synthesized audio."
+  ],
+  "limitations": [
+    "Requires a browser with WebGL2."
+  ],
+  "lessons": [
+    "Use interaction and motion to make a portfolio explorable."
+  ],
+  "evidence": [
+    "nucleus-readme",
+    "chat-roy-20261031-positioning"
+  ],
+  "lastVerified": "2026-11-02",
   "featured": true,
-  "order": 4,
-  "review": {"state": "published-baseline", "date": "2026-10-19", "basis": "Migrated current public README and existing portfolio."}
+  "order": 3,
+  "review": {
+    "state": "owner-attested",
+    "by": "theroyatlas",
+    "date": "2026-11-02",
+    "evidence": [
+      "chat-roy-20261031-positioning"
+    ],
+    "basis": "Chat approval for order. Unchanged fields retain their prior evidence (published-baseline). Receipt SHA256: bd5886ab0c34d4e9b72c8435fa0737179a45fa928fd6ef953c789fd9a81db7c6."
+  }
 }
