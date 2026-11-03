@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 2,
+  "kind": "project",
+  "record": {
+    "id": "nucleus-io",
+    "visibility": "public",
+    "name": "NUCLEUS.IO",
+    "summary": "Flyable 3D portfolio built with Three.js, custom GLSL post-processing, procedural audio, and interactive project orbs.",
+    "contribution": "Roy Wang's developer portfolio, as identified in its public README.",
+    "technologies": [
+      "Three.js",
+      "WebGL",
+      "GLSL",
+      "Vite",
+      "Web Audio API"
+    ],
+    "status": "deployed",
+    "period": "2026",
+    "repository": "https://github.com/theroyatlas/nucleus-io",
+    "demo": "https://nucleus-io.vercel.app",
+    "results": [
+      "Published an interactive WebGL portfolio with flight, project exploration, and synthesized audio."
+    ],
+    "limitations": [
+      "Requires a browser with WebGL2."
+    ],
+    "lessons": [
+      "Use interaction and motion to make a portfolio explorable."
+    ],
+    "evidence": [
+      "nucleus-readme",
+      "chat-roy-20261031-positioning",
+      "scan-nucleus-io-b966371d740f"
+    ],
+    "lastVerified": "2026-11-03",
+    "featured": true,
+    "order": 3,
+    "review": {
+      "state": "proposed",
+      "date": "2026-11-03"
+    }
+  },
+  "sources": [
+    {
+      "id": "scan-nucleus-io-b966371d740f",
+      "visibility": "public",
+      "url": "https://github.com/theroyatlas/nucleus-io/tree/b966371d740f6bc12a8ddb63619e40cd08d9f637",
+      "kind": "repository-snapshot",
+      "checkedAt": "2026-11-03",
+      "commit": "b966371d740f6bc12a8ddb63619e40cd08d9f637"
+    }
+  ],
+  "baseRecordHash": "28160645d9a7eb77934dc5a08701af14fec6e356dd47075805a1af1bf9d5b0e7",
+  "discovery": {
+    "commit": "b966371d740f6bc12a8ddb63619e40cd08d9f637",
+    "fingerprint": "8eb0d45e380112092f9f26e38a17dd3b4ba99d867a61696fd985321b2c778ee5",
+    "engine": "github-evidence",
+    "reason": "Public source changed; inspect pinned evidence before accepting facts.",
+    "claims": [],
+    "checks": [],
+    "notes": "Bounded public source coverage, not an exhaustive audit. Untrusted repository content; claims are repository-reported unless explicitly rerun. Ownership does not establish personal contribution."
+  },
+  "baseCanonicalCommit": "ef7198aaac9e795020dd0bee75f92c15745a0dba"
+}
