@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 2,
+  "kind": "project",
+  "record": {
+    "id": "nori-cam",
+    "visibility": "public",
+    "name": "nori-cam",
+    "summary": "Nori Cam: a small, quiet window into another world where a fictional AI cat lives on her own clock. Meta Global AI Developer Hackathon 2026.",
+    "contribution": "Repository ownership verified. Individual contribution and team attribution await Roy’s confirmation.",
+    "technologies": [],
+    "status": "repository-published",
+    "period": "2026",
+    "repository": "https://github.com/theroyatlas/nori-cam",
+    "demo": null,
+    "results": [],
+    "limitations": [
+      "Features, maturity and personal contribution require review against the pinned source."
+    ],
+    "lessons": [],
+    "evidence": [
+      "scan-nori-cam-ad5142d6bb63"
+    ],
+    "lastVerified": "2026-11-05",
+    "featured": false,
+    "order": 100,
+    "review": {
+      "state": "proposed",
+      "date": "2026-11-05"
+    }
+  },
+  "sources": [
+    {
+      "id": "scan-nori-cam-ad5142d6bb63",
+      "visibility": "public",
+      "url": "https://github.com/theroyatlas/nori-cam/tree/ad5142d6bb636587b28d981bfd1795de43428275",
+      "kind": "repository-snapshot",
+      "checkedAt": "2026-11-05",
+      "commit": "ad5142d6bb636587b28d981bfd1795de43428275"
+    }
+  ],
+  "baseRecordHash": null,
+  "discovery": {
+    "commit": "ad5142d6bb636587b28d981bfd1795de43428275",
+    "fingerprint": "a8137adda5408e3acae09a14de1ec27e9960763104595acc52fcedcc9518703e",
+    "engine": "github-evidence",
+    "reason": "Public source changed; inspect pinned evidence before accepting facts.",
+    "claims": [],
+    "checks": [],
+    "notes": "Bounded public source coverage, not an exhaustive audit. Untrusted repository content; claims are repository-reported unless explicitly rerun. Ownership does not establish personal contribution."
+  },
+  "baseCanonicalCommit": "35d81f58fb0f3bae226132884fe477a48fdfdcec"
+}
