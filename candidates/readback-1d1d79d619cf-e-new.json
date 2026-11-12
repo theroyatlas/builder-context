@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 2,
+  "kind": "project",
+  "record": {
+    "id": "readback",
+    "visibility": "public",
+    "name": "readback",
+    "summary": "Delivery receipts for multiplayer AI agents. Built at c0mpiled-18 (YC Startup School Hackathon, Taipei).",
+    "contribution": "Repository ownership verified. Individual contribution and team attribution await Roy’s confirmation.",
+    "technologies": [],
+    "status": "repository-published",
+    "period": "2026",
+    "repository": "https://github.com/theroyatlas/readback",
+    "demo": null,
+    "results": [],
+    "limitations": [
+      "Features, maturity and personal contribution require review against the pinned source."
+    ],
+    "lessons": [],
+    "evidence": [
+      "scan-readback-10c8c21b8ef0"
+    ],
+    "lastVerified": "2026-11-12",
+    "featured": false,
+    "order": 100,
+    "review": {
+      "state": "proposed",
+      "date": "2026-11-12"
+    }
+  },
+  "sources": [
+    {
+      "id": "scan-readback-10c8c21b8ef0",
+      "visibility": "public",
+      "url": "https://github.com/theroyatlas/readback/tree/10c8c21b8ef0a40fe67414601f12108f22f36959",
+      "kind": "repository-snapshot",
+      "checkedAt": "2026-11-12",
+      "commit": "10c8c21b8ef0a40fe67414601f12108f22f36959"
+    }
+  ],
+  "baseRecordHash": null,
+  "discovery": {
+    "commit": "10c8c21b8ef0a40fe67414601f12108f22f36959",
+    "fingerprint": "1d1d79d619cf71d04ac2cc710eb6e7f940b15a74e7de062bb5116051680dc5ca",
+    "engine": "github-evidence",
+    "reason": "Public source changed; inspect pinned evidence before accepting facts.",
+    "claims": [],
+    "checks": [],
+    "notes": "Bounded public source coverage, not an exhaustive audit. Untrusted repository content; claims are repository-reported unless explicitly rerun. Ownership does not establish personal contribution."
+  },
+  "baseCanonicalCommit": "f6cf040d8eb6bbd1108e359ff5afe04108d9154c"
+}
