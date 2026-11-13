@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "kind": "project",
+  "record": {
+    "id": "taiwan-uni-cp-value",
+    "visibility": "public",
+    "name": "Is my major worth it?",
+    "summary": "Interactive dashboard comparing Taiwan university admission scores with graduate salaries across 1,787 programs, with field-level salary distributions and methodology notes.",
+    "contribution": "NTNU course project authored by Roy Wang, as credited in the public README.",
+    "technologies": [
+      "Python",
+      "Streamlit",
+      "Plotly",
+      "pandas"
+    ],
+    "status": "prototype",
+    "period": "2025",
+    "repository": "https://github.com/theroyatlas/taiwan-uni-cp-value",
+    "demo": null,
+    "results": [
+      "Joined admission and field-level salary data and built an interactive exploration interface."
+    ],
+    "limitations": [
+      "Salary data are at field level, not individual program outcomes. No public server demo is documented."
+    ],
+    "lessons": [
+      "Make data grain and proxy assumptions visible alongside comparisons."
+    ],
+    "evidence": [
+      "university-readme",
+      "chat-roy-20261031-positioning",
+      "scan-taiwan-uni-cp-value-1192f39ec54e"
+    ],
+    "lastVerified": "2026-11-13",
+    "featured": true,
+    "order": 4,
+    "review": {
+      "state": "proposed",
+      "date": "2026-11-13"
+    }
+  },
+  "sources": [
+    {
+      "id": "scan-taiwan-uni-cp-value-1192f39ec54e",
+      "visibility": "public",
+      "url": "https://github.com/theroyatlas/taiwan-uni-cp-value/tree/1192f39ec54edfa7e7ca039480e845e1207617f2",
+      "kind": "repository-snapshot",
+      "checkedAt": "2026-11-13",
+      "commit": "1192f39ec54edfa7e7ca039480e845e1207617f2"
+    }
+  ],
+  "baseRecordHash": "20dbd3eab063f24f5ffb88eb3b8694e6483f1b26e44549b2132083f352ea0b20",
+  "discovery": {
+    "commit": "1192f39ec54edfa7e7ca039480e845e1207617f2",
+    "fingerprint": "01b35d3fb584b71a920d894024f07321f434e40eb260b680d6c957b92bb8eb82",
+    "engine": "github-evidence",
+    "reason": "Public source changed; inspect pinned evidence before accepting facts.",
+    "claims": [],
+    "checks": [],
+    "notes": "Bounded public source coverage, not an exhaustive audit. Untrusted repository content; claims are repository-reported unless explicitly rerun. Ownership does not establish personal contribution."
+  },
+  "baseCanonicalCommit": "b335be3fcdfbbddf417f68508c4459cb5428a3d6"
+}
