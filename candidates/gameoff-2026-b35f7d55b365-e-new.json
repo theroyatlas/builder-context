@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 2,
+  "kind": "project",
+  "record": {
+    "id": "gameoff-2026",
+    "visibility": "public",
+    "name": "gameoff-2026",
+    "summary": "Public project repository: gameoff-2026.",
+    "contribution": "Repository ownership verified. Individual contribution and team attribution await Roy’s confirmation.",
+    "technologies": [],
+    "status": "repository-published",
+    "period": "2026",
+    "repository": "https://github.com/theroyatlas/gameoff-2026",
+    "demo": null,
+    "results": [],
+    "limitations": [
+      "Features, maturity and personal contribution require review against the pinned source."
+    ],
+    "lessons": [],
+    "evidence": [
+      "scan-gameoff-2026-f9890943d39d"
+    ],
+    "lastVerified": "2026-11-13",
+    "featured": false,
+    "order": 100,
+    "review": {
+      "state": "proposed",
+      "date": "2026-11-13"
+    }
+  },
+  "sources": [
+    {
+      "id": "scan-gameoff-2026-f9890943d39d",
+      "visibility": "public",
+      "url": "https://github.com/theroyatlas/gameoff-2026/tree/f9890943d39d82f651029e3f741ceb0d3215216f",
+      "kind": "repository-snapshot",
+      "checkedAt": "2026-11-13",
+      "commit": "f9890943d39d82f651029e3f741ceb0d3215216f"
+    }
+  ],
+  "baseRecordHash": null,
+  "discovery": {
+    "commit": "f9890943d39d82f651029e3f741ceb0d3215216f",
+    "fingerprint": "b35f7d55b365fcb3b21e7f811c4e946aaf88b229adaf9aa1c6695820dc0a51f0",
+    "engine": "github-evidence",
+    "reason": "Public source changed; inspect pinned evidence before accepting facts.",
+    "claims": [],
+    "checks": [],
+    "notes": "Bounded public source coverage, not an exhaustive audit. Untrusted repository content; claims are repository-reported unless explicitly rerun. Ownership does not establish personal contribution."
+  },
+  "baseCanonicalCommit": "30bf2da93b04cf52787826f4207a2e23a75d323f"
+}
