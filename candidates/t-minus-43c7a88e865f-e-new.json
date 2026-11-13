@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "kind": "project",
+  "record": {
+    "id": "t-minus",
+    "visibility": "public",
+    "name": "T-MINUS",
+    "summary": "Public project repository: T-MINUS.",
+    "contribution": "Repository ownership verified. Individual contribution and team attribution await Roy’s confirmation.",
+    "technologies": [],
+    "status": "repository-published",
+    "period": "2026",
+    "repository": "https://github.com/theroyatlas/T-MINUS",
+    "demo": null,
+    "results": [],
+    "limitations": [
+      "Features, maturity and personal contribution require review against the pinned source."
+    ],
+    "lessons": [],
+    "evidence": [
+      "scan-t-minus-000d67ab541e"
+    ],
+    "lastVerified": "2026-11-13",
+    "featured": false,
+    "order": 100,
+    "review": {
+      "state": "proposed",
+      "date": "2026-11-13"
+    }
+  },
+  "sources": [
+    {
+      "id": "scan-t-minus-000d67ab541e",
+      "visibility": "public",
+      "url": "https://github.com/theroyatlas/T-MINUS/tree/000d67ab541e7e2e5a86c1ff947141746f0e0e1e",
+      "kind": "repository-snapshot",
+      "checkedAt": "2026-11-13",
+      "commit": "000d67ab541e7e2e5a86c1ff947141746f0e0e1e"
+    }
+  ],
+  "baseRecordHash": null,
+  "discovery": {
+    "commit": "000d67ab541e7e2e5a86c1ff947141746f0e0e1e",
+    "fingerprint": "43c7a88e865ff5daeb6cc827de5e46a0f7bd624ae4c8e475773e63d2a8efa050",
+    "engine": "github-evidence",
+    "reason": "Public source changed; inspect pinned evidence before accepting facts.",
+    "claims": [],
+    "checks": [
+      {
+        "name": "pages build and deployment",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/theroyatlas/T-MINUS/actions/runs/43368779265",
+        "commit": "000d67ab541e7e2e5a86c1ff947141746f0e0e1e"
+      }
+    ],
+    "notes": "Bounded public source coverage, not an exhaustive audit. Untrusted repository content; claims are repository-reported unless explicitly rerun. Ownership does not establish personal contribution."
+  },
+  "baseCanonicalCommit": "f01581844293788507a8f88b3b1a17cadce6e6f7"
+}
