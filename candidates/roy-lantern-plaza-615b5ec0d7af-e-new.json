@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "kind": "project",
+  "record": {
+    "id": "roy-lantern-plaza",
+    "visibility": "public",
+    "name": "roy-lantern-plaza",
+    "summary": "Public project repository: roy-lantern-plaza.",
+    "contribution": "Repository ownership verified. Individual contribution and team attribution await Roy’s confirmation.",
+    "technologies": [],
+    "status": "repository-published",
+    "period": "2026",
+    "repository": "https://github.com/theroyatlas/roy-lantern-plaza",
+    "demo": null,
+    "results": [],
+    "limitations": [
+      "Features, maturity and personal contribution require review against the pinned source."
+    ],
+    "lessons": [],
+    "evidence": [
+      "scan-roy-lantern-plaza-fc99ffc4058f"
+    ],
+    "lastVerified": "2026-11-17",
+    "featured": false,
+    "order": 100,
+    "review": {
+      "state": "proposed",
+      "date": "2026-11-17"
+    }
+  },
+  "sources": [
+    {
+      "id": "scan-roy-lantern-plaza-fc99ffc4058f",
+      "visibility": "public",
+      "url": "https://github.com/theroyatlas/roy-lantern-plaza/tree/fc99ffc4058f81c1c1ac3f0dbe6d4da68425329b",
+      "kind": "repository-snapshot",
+      "checkedAt": "2026-11-17",
+      "commit": "fc99ffc4058f81c1c1ac3f0dbe6d4da68425329b"
+    }
+  ],
+  "baseRecordHash": null,
+  "discovery": {
+    "commit": "fc99ffc4058f81c1c1ac3f0dbe6d4da68425329b",
+    "fingerprint": "615b5ec0d7af30147e2c36ecabaabd2e6e9ccc01e533e48e53f00563b6a966db",
+    "engine": "github-evidence",
+    "reason": "Public source changed; inspect pinned evidence before accepting facts.",
+    "claims": [],
+    "checks": [
+      {
+        "name": "pages build and deployment",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/theroyatlas/roy-lantern-plaza/actions/runs/43852765277",
+        "commit": "fc99ffc4058f81c1c1ac3f0dbe6d4da68425329b"
+      }
+    ],
+    "notes": "Bounded public source coverage, not an exhaustive audit. Untrusted repository content; claims are repository-reported unless explicitly rerun. Ownership does not establish personal contribution."
+  },
+  "baseCanonicalCommit": "d804e7486c67db968fdd6479275ee712127f4ae3"
+}
